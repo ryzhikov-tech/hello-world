@@ -20,4 +20,4 @@ after_success:
   - export IMAGE_NAME=my-hello-world
   - docker build -t $IMAGE_NAME:$COMMIT .
   - docker tag $IMAGE_NAME:$COMMIT $IMAGE_NAME:$TAG
-  - docker push $IMAGE_NAME
+  - docker push serhva132/$IMAGE_NAME
